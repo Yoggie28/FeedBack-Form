@@ -13,7 +13,7 @@
       </p>
     </header>
     <main>
-      <form method="POST" action="https://hotel-feedback.freecodecamp.org">
+      <form method="POST" action="https://script.google.com/macros/s/AKfycby3mSN_oFdNXzY9KFW9CUT0IKdTgDz0yJiTHgo07unIpPR4jXJ-saBfMLKDb_PWtoGhMw/exec">
         <fieldset>
           <legend>Personal Information</legend>
           <label for="full-name">Name (required):</label>
@@ -32,14 +32,15 @@
           <input type="number" name="age" id="age" min="3" max="100" />
         </fieldset>
 
-        <fieldset>
-          <legend>Was this your first time at our hotel?</legend>
-          <input id="yes-option" type="radio" name="hotel-stay" />
-          <label for="yes-option">Yes</label>
-          <input id="no-option" type="radio" name="hotel-stay" />
-          <label for="no-option">No</label>
-        </fieldset>
+       <fieldset>
+  <legend>Was this your first time at our hotel?</legend>
 
+  <input id="yes-option" type="radio" name="hotel-stay" value="yes" required />
+  <label for="yes-option">Yes</label>
+
+  <input id="no-option" type="radio" name="hotel-stay" value="no" />
+  <label for="no-option">No</label>
+</fieldset>
         <fieldset>
           <legend>
             Why did you choose to stay at our hotel? (Check all that apply)
